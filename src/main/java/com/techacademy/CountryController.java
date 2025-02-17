@@ -62,9 +62,4 @@ public class CountryController {
         return "redirect:/country/list";
     }
 
-    // ----- 一覧画面に戻る -----
-    @GetMapping("/backtolist")
-    public String backToList() {
-        return "redirect:/country/list";
-    }
 }
